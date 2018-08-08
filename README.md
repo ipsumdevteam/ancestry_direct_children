@@ -3,10 +3,18 @@
 
 ## Installation
 
++ Add the gem to your `Gemfile`
+
 ```
-gem install ancestry_direct_children
+gem 'ancestry_direct_children'
+```
+
++ Install the dependencies
+
+```
 bundle install
 ```
+
 ## Add column to your models
 
 + Add a migration to the desired model(s)
