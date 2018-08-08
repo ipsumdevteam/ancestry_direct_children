@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.authors     = ["A. Felipe Cabargas"]
   s.email       = 'felipe@ipsumapp.co'
   s.files       = ["lib/","db/"]
-  s.homepages   =
+  s.homepage    =
     'https://rubygems.org/gems/ancestry_direct_children'
   s.license     = 'MIT'
 end
