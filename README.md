@@ -12,8 +12,10 @@ bundle install
 + Add a migration to the desired model(s)
 
 ```
-rails g migration add_direct_children_count_to[table] direct_children_count:integer
+rails g migration add_direct_children_count_to_[table] direct_children_count:integer
 ```
+
+> If your use case doesn't require INT you may use SMALLINT or equivalent
 
 + Migrate your database:
 
