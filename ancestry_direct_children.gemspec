@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.description = "Adds direct children count to ancestry models"
   s.authors     = ["A. Felipe Cabargas", "Bernardo Machuca"]
   s.email       = ["felipe@ipsumapp.co", "bernardo@ipsumapp.co"]
-  s.files       = ["lib/ancestry_direct_children.rb", "railtie.rb"]
+  s.files       = ["lib/ancestry_direct_children.rb"]
   s.homepage    =
     'https://rubygems.org/gems/ancestry_direct_children'
   s.license     = 'MIT'

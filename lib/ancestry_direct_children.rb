@@ -1,4 +1,5 @@
 require 'ancestry'
+require 'railtie' if defined?(Rails)
 
 Ancestry::InstanceMethods.module_eval do
   def sibling_count
